@@ -17,5 +17,7 @@ public class InsertPlanets {
 		this.planetRepository.save(Planet.builder().name("Alderaan").terrain("Mountain").build());
 		this.planetRepository.save(Planet.builder().name("Tatooine").terrain("Desert").build());
 		this.planetRepository.save(Planet.builder().name("Dagobah").terrain("Swamp").build());
+		
+		
 	}
 }
